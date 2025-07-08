@@ -10,7 +10,8 @@ export default function Navbar() {
     <nav className="bg-white shadow-md px-4 py-3 flex items-center justify-between w-full">
       {/* Left: Logo */}
       <div className="flex items-center space-x-2">
-        <span className="text-2xl font-bold text-orange-600">Santhai</span><span className="text-2xl font-bold text-green-800">.Com</span>
+        <span className="text-2xl font-bold text-orange-600">
+        <FaShoppingCart  title="Logo" />Santhai<span className="text-2xl font-bold text-green-800">.Com</span></span>
       </div>
 
       {/* Center: Menu + Search (hidden on mobile) */}
